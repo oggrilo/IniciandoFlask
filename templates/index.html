@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ Titulo }}</title>
+</head>
+<body>
+  <form action="/" method="post">
+    <h1> Formulário Pessoa</h1>
+    <br>
+    <label id="nome" name="lNome"> Nome: </label>
+    <input type="text" id="tNome" name="tNovoNome" placeholder=" Insira seu nome aqui "/><br><br>
+
+    <label id="telefone" name="lTelefone"> Telefone: </label>
+    <input type="text" id="tTelefone" name="tNovoTelefone" placeholder=" Insira seu telefone aqui "/><br><br>
+
+    <label id="endereco" name="lEndereco"> Endereço: </label>
+    <input type="text" id="tEndereco" name="tNovoEndereco" placeholder=" Insira seu endereco aqui "/><br><br>
+
+    <label id="data" name="lData"> Data De Nascimento: </label>
+    <input type="date" id="tData" name="tNovoData" placeholder=" Insira sua Data De Nascimento aqui "/><br><br>
+
+    <button type="submit"> Cadastrar </button>
+  </form>
+
+  <h6>{{ resultado }}</h6>
+</body>
+</html>
